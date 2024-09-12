@@ -3,7 +3,8 @@
 }
 body{
     font-family: sans-serif;
-    background-color: #e2eaff;
+    background-image: url("fondo.jpg");
+    background-size: cover;
     color: #101632dd;
 }
 div,label, body{
