@@ -90,3 +90,11 @@ div,label, body{
 .form__input-container:nth-child(5){
     grid-area: button;
 }
+h3{
+    text-align: center;
+}
+.Rol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
