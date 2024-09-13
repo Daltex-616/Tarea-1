@@ -30,6 +30,7 @@ div,label, body{
         grid-template-areas: 
         "name lastname"
         "email email"
+        "contraseña contraseña"
         "message message"
         "button button";
         gap: 12px;
@@ -86,16 +87,19 @@ div,label, body{
     grid-area: email;
 }
 .form__input-container:nth-child(4){
-    grid-area: message;
+    grid-area: contraseña;
 }
 .form__input-container:nth-child(5){
+    grid-area: message;
+}
+.form__input-container:nth-child(6){
     grid-area: button;
 }
 h3{
     text-align: center;
 }
 .Rol{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    grid-column: 1 / span 2; /* Ocupa dos columnas */
+    text-align: center;  
+    color: #fff8;
 }
